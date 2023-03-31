@@ -1,0 +1,80 @@
+
+.flexContenedor{
+    display: flex;
+}
+.divDerecha{
+ width: 90%;
+
+}
+
+.divIzquierda{
+width: 10%;
+
+}
+
+.divDerechaHijo{
+    width: 40px;
+    background-color: #FF95B3;
+    height: 20px;
+}
+.divIzquierdaHijo{
+    width: 60px;
+    background-color: aqua;
+    height: 20px;
+}
+
+.barra{
+text-align: center;
+border: 1px solid ghostwhite;
+margin-left: 45px;
+
+}
+.barra > a{
+    margin-left: 45px;
+    color: black;
+}
+h1{
+    color: midnightblue;
+    margin: 10px;
+}
+p{
+    color: hotpink;
+}
+.marco{
+    text-align: center;
+    margin: 100px;
+}
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: #070B56;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .dot1 {
+    height: 25px;
+    width: 25px;
+    background-color: #FF95B3;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .dot2 {
+    height: 25px;
+    width: 25px;
+    background-color: #414141;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .dot3 {
+    height: 25px;
+    width: 25px;
+    background-color: #B8B8B8;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  a{
+    color: #FF95B3;
+  }
+ .final{
+    text-align: center;
+ }
